@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Rock Paper Scissors</title>
+    <link rel = "stylesheet" href = "style.css"></link>
 </head>
 <body>
-    <script src = "script.js">
-    </script>
+    <h1 id = "mainHeader">Bienvenidos a piedra papel o tijera!</h1>
+    <div id = "dynamicDiv">
+        <h2 id = "initialHeader">Presiona un boton cuando quieras empezar!</h2>
+    </div>
+    <script src = "script.js" defer></script>
+    <div id = "buttonContainer">
+        <div id = "button1Container" class = "buttons">
+            <img src = "./img/piedra.jpg">
+            <button id = "piedra" class = "clicks">Piedra</button>
+        </div>
+        <div id = "button2Container" class = "buttons">
+            <img src = "./img/papel.jpg">
+            <button id = "papel" class = "clicks">Papel</button>
+        </div>
+        <div id = "button2Container" class = "buttons">
+            <img src = "./img/tijera.jpg">
+            <button id = "tijera" class = "clicks">Tijera</button>
+        </div>
+    </div>
+    <div id = "matchResultContainer">
+    </div>
 </html>
